@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<body style="background-color:#ecf0f1;font-family:verdana;">
+    	<h1 style="color:#7f8c8d;padding:5px;">Main User Interface</h1>
+    	
+    	<hr>
+
+    	<h2 style="color:#7f8c8d;padding:5px;border:2px dotted #95a5a6;"><b>File Menu</b></h2>
+    	<h3 style="color:#7f8c8d;padding:5px;">Export</h3>
+    	<div style="padding:0px;">
+    	<p style="color:#95a5a6;">With the export menu, the user is given the option to export the document as any of the following:</p>
+    	<ul style="color:#95a5a6;">
+    	<li>PDF</li>
+    	<li>CSV</li>
+    	<li>Text File</li>
+    	<li>Image</li>
+    	</ul>
+    	<p style="color:#95a5a6;">Clicking on any of the previous types in the menu opens a standard dialogue to save the file to a preferred directory. </p>
+    	</div>
+    	
+    	<h3 style="color:#7f8c8d;padding:5px;">Open</h3>
+    	<div style="padding:0px;">
+    	<p style="color:#95a5a6;">
+    	The open tool allows the user to access a map data file saved elsewhere on the device, via a standard dialogue.
+    	</p>
+    	</div>
+    	
+    	<h3 style="color:#7f8c8d;padding:5px;">Save</h3>
+    	<div style="padding:0px;">
+    	<p style="color:#95a5a6;">
+    	The save tool allows the user to save a map data file to a preferred location on the device via a standard dialogue.
+    	</p>
+    	</div>
+    	
+    	<h3 style="color:#7f8c8d;padding:5px;">Print</h3>
+    	<div style="padding:0px;">
+    	<p style="color:#95a5a6;">
+    	The print tool opens a standard dialogue box to print out the map, complete with customized colors, and with the map displaying the desired data type (ex. Arsenic, Radon, Gold, Lead). 
+    	</p>
+    	</div>
+    	
+    	<h2 style="color:#7f8c8d;padding:5px;border:2px dotted #95a5a6;"><b>Edit Menu</b></h2>
+    	<div style="padding:0px;">
+    	<p style="color:#95a5a6;">The edit section contains standard undo and redo buttons.</p>
+    	<p style="color:#95a5a6;">Undo – Ctrl+Z</p>
+    	<p style="color:#95a5a6;">Redo – Ctrl+Y</p>
+    	</div>
+    	
+    	<h2 style="color:#7f8c8d;padding:5px;border:2px dotted #95a5a6;"><b>Options Menu</b></h2>
+    	<h3 style="color:#7f8c8d;padding:5px;">Color Selection</h3>
+    	<div style="padding:0px;">
+    	<p style="color:#95a5a6;">This is the section where one can set particular colors to a given numerical range for a water value type.</p>
+    	<ul style="color:#95a5a6;">
+    	<li>
+    	<p style="color:#95a5a6;">Remove Parameters: In the furthest right column, one can remove parameters, if there are unnecessary customization boxes for desired colors.</p>
+		</li>
+    	<li>
+    	<p style="color:#95a5a6;">Add Parameters: New color parameters can be added via the “Add Another Parameter” button at the bottom.</p>
+		</li>
+		<li>
+    	<p style="color:#95a5a6;">Back Button: The back button cancels all currently recorded color changes and returns the user to the main user interface.</p>
+		</li>
+		<li>
+    	<p style="color:#95a5a6;">Done Button: The done button saves all new changes to color preferences and applies them to the map.</p>
+		</li>
+		</ul>
+		<h4 style="color:#95a5a6;">Color Parameter Functionality</h4>
+    		<ul style="color:#95a5a6;">
+    			<li>The furthest left column allows the user to pick a specific color for the to-be-specified numerical range.</li>
+    			<li>The user can set particular numerical range using the From and To columns.</li>
+    			<li>NOTE: If two or more parameters overlap (ie. The user were to specify the range 0.0 <= x < 1.0 for the colors of yellow, blue, and orange), the conflicting parameters will glow red when the user selects the Done button.</li>
+    		</ul>
+    	</div>
+    	
+    	<h3 style="color:#7f8c8d;padding:5px;">Text Selection</h3>
+    	<div style="padding:0px;">
+    	<ul style="color:#95a5a6;">
+    	<li>
+    	<p style="color:#95a5a6;">Font: Use the font drop-down menu to specify a generic text font to be used in the map.</p>
+		</li>
+		<li>
+    	<p style="color:#95a5a6;">Style: The style drop-down menu allows the user to bold or italizize the generic font for the map.</p>
+		</li>
+		<li>
+    	<p style="color:#95a5a6;">Size: The user can use the size drop-down menu to specify a size for the font in the map (though the map may become jumbled if the user selects a font size larger than approximately 14 point font.</p>
+		</li>
+    	</div>
+    	
+    	<h2 style="color:#7f8c8d;padding:5px;border:2px dotted #95a5a6;"><b>View Menu</b></h2>
+    	<div style="padding:0px;">
+    	<p style="color:#95a5a6;">The view drop-down menu allows the user to toggle the Right Input Column on the main user interface on and off.</p>
+    	</div>
+    	
+    	<h2 style="color:#7f8c8d;padding:5px;border:2px dotted #95a5a6;"><b>Analysis Menu</b></h2>
+    	<p style="color:#95a5a6;">The analysis section is the meat of the product, where the user can find the options to create a timed slideshow, create multiple types of graphs including histograms and box plots, collect statistics, and even develop a spreadsheet. </p>
+    	<h3 style="color:#7f8c8d;padding:5px;">Map Slideshow</h3>
+    	<div style="padding:0px;">
+    	<h4 style="color:#7f8c8d;padding:5px;">Toolbar</h4>
+    	<ul style="color:#95a5a6;">
+    	<li>Options Preferences: The user can select the time interval with which to advance slides.</li>
+    	<li>View: The user can select whether or not to display state postal code names and water values in a checkbox style.</li>
+    	</ul>
+    	<h4 style="color:#7f8c8d;padding:5px;">Value Selector</h4>
+    	<p style="color:#95a5a6;">Choose between particular stored data types (ex. Arsenic, Radon, Gold, Lead).</p>
+    	<h4 style="color:#7f8c8d;padding:5px;">Backward and Forward</h4>
+    	<p style="color:#95a5a6;">Move the progress of the displaying map slide forward or backwards.</p>
+    	<h4 style="color:#7f8c8d;padding:5px;">Slider</h4>
+    	<p style="color:#95a5a6;">Allow the user to drag to the desired slide.</p>
+    	<h4 style="color:#7f8c8d;padding:5px;">Start Slideshow</h4>
+    	<p style="color:#95a5a6;">The user can use this button to begin a timed slideshow.</p>
+    	</div>
+    	<h3 style="color:#7f8c8d;padding:5px;">Map Analysis Tools</h3>
+    	<div style="padding:0px;">
+    	<h4 style="color:#7f8c8d;padding:5px;">Histogram</h4>
+    	<p style="color:#95a5a6;">Automatically creates a histogram of values for a particular data type. The number of ranges desired to be displayed can be manually entered below the graph to suit the need of a particular data range.</p>
+    	<h4 style="color:#7f8c8d;padding:5px;">Box Plot</h4>
+    	<p style="color:#95a5a6;">Generates a standard box plot for the selected data type. </p>
+    	<h4 style="color:#7f8c8d;padding:5px;">Slider</h4>
+    	<p style="color:#95a5a6;">Creates a table with each state alphabetically organized in the left column. Values for all data types are recorded in additional columns.</p>
+    	<p style="color:#95a5a6;">Note: The order of the columns can be adjusted by clicking and dragging any column.</p>
+    	<h4 style="color:#7f8c8d;padding:5px;">Statistics</h4>
+    	<p style="color:#95a5a6;">Generates a standard statistical analysis sheet on the data type selected underneath for all states with recorded values. This section provides the following:</p>
+    	<ul style="color:#95a5a6;">
+    	<li>Mean</li>
+    	<li>Summation of Values</li>
+    	<li>Standard Deviation</li>
+    	<li>Number of Values</li>
+    	<li>Minimum Value</li>
+    	<li>First Quartile Value</li>
+    	<li>Median</li>
+    	<li>Third Quartile Value</li>
+    	<li>Maximum Value</li>
+    	</ul>
+    	<h3 style="color:#7f8c8d;padding:5px;">General</h3>
+    	<h4 style="color:#7f8c8d;padding:5px;">Back</h4>
+    	<p style="color:#95a5a6;">Exits from Map Analysis Tools without saving changes.</p>
+    	<h4 style="color:#7f8c8d;padding:5px;">Value Selector</h4>
+    	<p style="color:#95a5a6;">Choose between particular stored data types (ex. Arsenic, Radon, Gold, Lead).</p>
+    	<h4 style="color:#7f8c8d;padding:5px;">Done</h4>
+    	<p style="color:#95a5a6;">Saves changes and returns the user to the main user interface.</p>
+    	</div>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+Specifications
+
+-Print function for a speadsheet of the data and for specific state history
+-Resizable
+-Export to PDF(currently we can print to pdf)
+-Animation of the color fading in after a user inputs the data
+-View option to choose what region of the US they want to see
+-Help menu
+-Separator between imagePanel and inputPanel with a button to hide or show the thing
+-Key for colors
+-Create only one ActionListener in MainFrame and use actionCommands instead
+-Bar chart area
+-Screen to view all graphs of state history at once
+
+Finished:
+*-Input boxes for values
+*-Input box listeners to watch for bad inputs
+*-Input state postal code of full canonical name
+*-Toolbar
+*-Get function to get value for a specific state
+*-Export as CSV, or Text file
+*-Checkbox to toggle state names on states
+*-Checkbox to toggle water values
+*-View option to remove the setter/getter on the side
+*-Abilities for Arsenic, Radon, and Uranium, and more.
+*-Remove color argument in State
+*-When they click on a state, in the input box dialog it should say the state they clicked on
+*-Options to change the colors representing water density ranges
+*-Colors on map to represent different water value ranges
+*-History function
+*-Options to change text color on map and text size
+*-Undo/Redo button
+*-Fix Autocomplete
+*-Save function
+*-add close window on exit for color chooser jframe
+*-create central preferences window, easier to manager than separate jframes for each option(one big jtabbedpane)
+*-Histogram of all states values
+*-fix some of the backwards points
+*-Actual slideshow analysis and JSlider, restart at end
+*-Stat calculations like mean and median for states
+*-Map that is clickable for values
+*-Analysis mode where it can like take one through the changes in data through a changing map, calculate mean and median
+*-Let user change text color
+*-Box and Whisker plot
+*-Print function for map 
