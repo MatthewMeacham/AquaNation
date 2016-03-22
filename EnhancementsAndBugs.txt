@@ -2,9 +2,18 @@ Enhancements and Bugs
 --------------------------------------------------------
 
 -The tables don't allow you to click out once you've clicked in
--
--
--
+-Change default colors from the rainbow to a soft blue or green progression
+-Custom Legend - Added on the map and on all exports
+-Custom Title - Added on the map and on all exports
+-Remove the lines that point to the states when a person chooses to remove both the state names and values
+-Remove transparent background and instead make it like a solid white or a soft gray
+-"Saved data doesn't make new maps" - Numbers and colors and state names won't show on the map after loading a file even though the data is there
+-Fix box plot, I don't think it works 100%
+-Add capability for "No Data" Option in the color parameters, so they can select a color when there is no value
+-Add capability for "No Data" point on graphs
+-Allow users to delete columns
+-When values are turned on, New Hampshire's value gets cut off
+
 
 
 FINISHED:
